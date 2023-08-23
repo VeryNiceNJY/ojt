@@ -1,0 +1,29 @@
+/*** 寃��깋李� ***/
+header .srh_bar input[type='text'] {
+    width: 85%;
+}
+header .srh_bar input[type='submit'] {
+    background-position: 4px 3px;
+}
+
+.help_btn,
+.help_guide {
+    background-color: rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+}
+
+
+/*** �긽�꽭寃��깋 ***/
+.contents_wrap .dt_srh section.dt_date_di ul li input {
+    width: 110px;
+}
+.contents_wrap .dt_srh section INPUT[type='submit'],.contents_wrap .dt_srh section #detailSearchBtn {
+    width: 100%;
+    background-position: 92%;
+}
+
+
+/*** 寃��깋 寃곌낵 ***/
+.contents_wrap .active.srh_ctn {
+    width: 85%;
+}

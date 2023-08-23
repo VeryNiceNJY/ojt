@@ -1,0 +1,60 @@
+/*** 검색창 ***/
+header {
+    padding: 25px 22%;
+}
+header > *,
+header .srh_bar > * {
+    float: left;
+}
+header .srh_bar {
+    padding: 0px;
+}
+header h1 {
+    width: 150px;
+}
+header > p {
+    width: 120px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+
+/*** 검색어자동완성 ***/
+.suggester {
+    margin-left: 31%;
+}
+
+
+/*** 카테고리 ***/
+.srh_ctg HR {
+    top: -3px;
+}
+.srh_ctg .dt_btn {
+    top: -1px;
+    padding: 3px 0px;
+}
+.srh_ctg UL LI {
+    bottom: 2px;
+}
+
+
+/*** 상세검색 ***/
+.contents_wrap .dt_srh {
+    top: 126px;
+}
+
+
+/*** 검색 결과 ***/
+.contents_wrap .srh_ctn .srh_cmb_rst {
+    height: 26px;
+}
+.contents_wrap .srh_ctn .srh_cmb_rst P {
+    float: left;
+}
+.contents_wrap .active.srh_ctn {
+    position: fixed;
+    top: 0px;
+    width: 88%;
+    height: 83%;
+    overflow: auto;
+}
